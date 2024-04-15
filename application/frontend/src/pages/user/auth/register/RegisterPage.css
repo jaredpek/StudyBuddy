@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.signup-container {
+    height: 750px;
+    background-color: #f0f8ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.signup-header {
+    margin-top: 60px;
+}
+
+.signup-card {
+    height: 675px;
+    width: 1180px;
+    border-radius: 10px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.signup-header-text {
+    font-size: 42px;
+}
+
+.signup-message {
+    margin-top: 10px;
+}
+
+.signup-text {
+    font-size: 26px;
+}
+
+.signup-form-container {
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.signup-container-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+.signup-container-left {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+.signup-input {
+    width: 100%;
+    border-radius: none;
+    border: #808080;
+    padding-top: 6px;
+}
+
+.signup-box-label {
+    font-size: 23px;
+    padding-top: 5px;
+}
+
+.directlogin:hover {
+    cursor: pointer;
+}
+
+.signup-submit-container {
+    display: flex;
+    gap: 30px;
+    margin: 40px auto;
+}
+
+.signup-submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 320px;
+    height: 59px;
+    color: #fff;
+    background-color: #00abe4;
+    border-radius: 20px;
+    font-size: 23px;
+    cursor: pointer;
+}
+
+.signup-submit:hover {
+    color: black;
+}

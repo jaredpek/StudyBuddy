@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.navbar-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon {
+    font-size: 150px;
+}
+
+.pl-body1 {
+    height:200px;
+}
+
+.pl-post-container1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: left;
+    padding-top: 70px;
+}
+
+.pl-post-content1,
+.pl-post-content2{
+    font-size: 48px;
+}
+
+.pl-post-content2 {
+    font-size: 24px;
+}
+
+.linebreak {
+    display: block;
+}
+
+.pl-post-container2 {
+    height: 100%;
+    display: flex;
+    gap: 15px;
+    grid-template-columns: 1fr 1fr;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+    text-align: right;
+}
+
+.card {
+    height: 405px;
+    width: 100%;
+    border-radius: 10px;
+    border: 2px solid #cccccc;
+    background-color: #fff;
+    display: flex;
+    gap: 20px;
+    color: #00abe4;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-content {
+    font-size: 30px;
+}
+
+.navbar-links find {
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+}
+
+.manage-card {
+    height: 405px;
+    width: 360px;
+    border-radius: 10px;
+    border: 2px solid #cccccc;
+    background-color: #fff;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 70px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+.manage-card:hover {
+    transform: scale(1.05);
+}
+
+.manage-content {
+    font-size: 43px;
+    text-shadow: 0 0 2px rgba(0, 0, 0, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.navbar-links manage {
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+}
+
+.help-card {
+    height: 405px;
+    width: 360px;
+    border-radius: 10px;
+    border: 2px solid #cccccc;
+    background-color: #fff;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 70px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+.help-card:hover {
+    transform: scale(1.05);
+}
+
+.help-content {
+    font-size: 43px;
+    text-shadow: 0 0 2px rgba(0, 0, 0, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.navbar-links help {
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+}

@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: "Hind Madurai", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 85px;
+    padding-bottom: 25px;
+    border-bottom: #96c2db 1px solid;
+    overflow: visible;
+    width: 100%;
+}
+
+nav p a {
+    font-size: 42px;
+    text-decoration: none;
+    color: #000;
+    text-shadow: 1px 1px #000;
+}
+
+.blue {
+    color: #00abe4;
+}
+
+.navbar-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.navbar-links li {
+    list-style: none;
+    position: relative;
+    padding: 0px 10px 0px 10px;
+}
+
+.navbar-links li a {
+    text-decoration: none;
+    font-size: 23px;
+    color: #000;
+}
+
+.navbar-links button {
+    width: 115px;
+    height: 38px;
+    background-color: #00abe4;
+    font-size: 23px;
+    border-radius: 27px;
+    border: none;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.navbar-links button:hover {
+    cursor: pointer;
+}
+
+.navbar-links li a:hover,
+.navbar-links li a.active {
+    color: #00abe4;
+}
+
+.navbar-links li a:hover::after,
+.navbar-links li a.active::after {
+    content: "";
+    text-decoration: underline;
+    height: 2px;
+    background: #00abe4;
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+}
+
+.user-container {
+    top: 10px;
+    right: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.blue-circle {
+    width: 20px;
+    height: 20px;
+    background-color: #00ABE4;
+    border-radius: 50%;
+    margin-top: -5px;
+}
+
+.name {
+    text-decoration: none;
+    font-size: 23px;
+    color: #000;
+    padding-left: 10px;
+}
